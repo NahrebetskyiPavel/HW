@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    header{
+      width: 100vw;
+      height: 20vh;
+      background: #D9D9D9;
+    }
+    main{
+      display: flex;
+      justify-content: space-around;
+      width: 100vw;
+      height: 60vh;
+    }
+
+    .mid{
+      background: #61615C;
+      width: 60%;
+      height: 100%;
+    }
+
+    .side-wrap{
+      background: #9EA087;
+      width: 20%;
+      height: 100%;
+    }
+    .side-wrap{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    .side-left{
+      background: linear-gradient(0deg, #A5A5A3 0%, #A5A5A3 100%), linear-gradient(0deg, #979796 0%, #979796 100%), #979796;
+      height: 34%;
+    }
+    .side-left-mid{
+      background: linear-gradient(0deg, #BABAB9 0%, #BABAB9 100%), linear-gradient(0deg, #7F816A 0%, #7F816A 100%), #979796;
+      height: 34%;
+    }
+
+    .side-right-top{
+      background: #78786F;
+      height: 50%;
+    }
+    .side-right-down{
+      background: #828569;
+      height: 50%;
+    }
+    footer{
+      width: 100vw;
+      height: 20vh;
+      background: #D9D9D9;
+    }
+  </style>
+</head>
+<body>
+<header></header>
+<main>
+  <div class="side-wrap">
+    <div class="side-left"></div>
+    <div class="side-left-mid"></div>
+    <div class="side-left"></div>
+  </div>
+  <div class="mid"></div>
+  <div class="side-wrap">
+    <div class="side-right-top"></div>
+    <div class="side-right-down"></div>
+  </div>
+</main>
+<footer></footer>
+
+</body>
+</html>
