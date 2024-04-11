@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    .content{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100vw;
+        height: 100vh;
+    }
+
+
+    #orange{
+      background-color: orange;
+    }
+
+    #blue{
+      background-color: cadetblue;
+    }
+
+    #green{
+      background-color: green;
+    }
+    .arrow{
+        font-size: 40px;
+    }
+
+    a {
+        color: black;
+        text-decoration: none; /* no underline */
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <div class="content" id="orange">
+    <h1>Scroll Titele</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ipsum provident totam. Ad autem delectus dignissimos dolores labore quam quibusdam quis quisquam saepe tenetur. Cumque dicta est, ex excepturi illum, iusto labore maxime odit quaerat sapiente tempora ut vel! Adipisci aliquid animi aperiam atque blanditiis cumque dolorum ducimus earum eius esse harum iure, laboriosam nisi placeat quam quod recusandae rem rerum sed soluta suscipit veritatis voluptas voluptates? Blanditiis culpa dicta dolor ex fugiat iure nam voluptatum. At atque delectus, exercitationem id molestias nobis officiis perspiciatis, qui quod reiciendis rem sapiente?</p>
+    <div class="arrow">
+        <a href="#blue"> &darr;</a>
+    </div>
+  </div>
+  <div class="content" id="blue">
+      <div class="arrow">
+          <a href="#orange"> &uarr;</a>
+      </div>
+      <h1>Scroll Titele</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ipsum provident totam. Ad autem delectus dignissimos dolores labore quam quibusdam quis quisquam saepe tenetur. Cumque dicta est, ex excepturi illum, iusto labore maxime odit quaerat sapiente tempora ut vel! Adipisci aliquid animi aperiam atque blanditiis cumque dolorum ducimus earum eius esse harum iure, laboriosam nisi placeat quam quod recusandae rem rerum sed soluta suscipit veritatis voluptas voluptates? Blanditiis culpa dicta dolor ex fugiat iure nam voluptatum. At atque delectus, exercitationem id molestias nobis officiis perspiciatis, qui quod reiciendis rem sapiente?</p>
+      <div class="arrow">
+          <a href="#green"> &darr;</a>
+      </div>
+  </div>
+  <div class="content" id="green">
+      <div class="arrow">
+          <a href="#blue"> &uarr;</a>
+      </div>
+      <h1>Scroll Titele</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ipsum provident totam. Ad autem delectus dignissimos dolores labore quam quibusdam quis quisquam saepe tenetur. Cumque dicta est, ex excepturi illum, iusto labore maxime odit quaerat sapiente tempora ut vel! Adipisci aliquid animi aperiam atque blanditiis cumque dolorum ducimus earum eius esse harum iure, laboriosam nisi placeat quam quod recusandae rem rerum sed soluta suscipit veritatis voluptas voluptates? Blanditiis culpa dicta dolor ex fugiat iure nam voluptatum. At atque delectus, exercitationem id molestias nobis officiis perspiciatis, qui quod reiciendis rem sapiente?</p>
+
+  </div>
+</body>
+</html>
